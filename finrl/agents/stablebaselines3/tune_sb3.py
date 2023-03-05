@@ -17,12 +17,12 @@ from stable_baselines3 import PPO
 from stable_baselines3 import SAC
 from stable_baselines3 import TD3
 
-from finrl import config
-from finrl.agents.stablebaselines3.models import DRLAgent
-from finrl.plot import backtest_plot
-from finrl.plot import backtest_stats
-from finrl.plot import get_baseline
-from finrl.plot import get_daily_return
+import config
+from agents.stablebaselines3.models import DRLAgent
+from plot import backtest_plot
+from plot import backtest_stats
+from plot import get_baseline
+from plot import get_daily_return
 
 
 class LoggingCallback:
