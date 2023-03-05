@@ -64,8 +64,8 @@ class StockTradingEnvStopLoss(gym.Env):
     def __init__(
         self,
         df,
-        buy_cost_pct=3e-3,
-        sell_cost_pct=3e-3,
+        buy_cost_pct=3e-3, # not necessary
+        sell_cost_pct=3e-3, # not necessary
         date_col_name="date",
         hmax=10,
         discrete_actions=False,

@@ -4,21 +4,21 @@ import os
 from argparse import ArgumentParser
 from typing import List
 
-from finrl.config import ALPACA_API_BASE_URL
-from finrl.config import DATA_SAVE_DIR
-from finrl.config import ERL_PARAMS
-from finrl.config import INDICATORS
-from finrl.config import RESULTS_DIR
-from finrl.config import TENSORBOARD_LOG_DIR
-from finrl.config import TEST_END_DATE
-from finrl.config import TEST_START_DATE
-from finrl.config import TRADE_END_DATE
-from finrl.config import TRADE_START_DATE
-from finrl.config import TRAIN_END_DATE
-from finrl.config import TRAIN_START_DATE
-from finrl.config import TRAINED_MODEL_DIR
-from finrl.config_tickers import DOW_30_TICKER
-from finrl.meta.env_stock_trading.env_stocktrading_np import StockTradingEnv
+from config import ALPACA_API_BASE_URL
+from config import DATA_SAVE_DIR
+from config import ERL_PARAMS
+from config import INDICATORS
+from config import RESULTS_DIR
+from config import TENSORBOARD_LOG_DIR
+from config import TEST_END_DATE
+from config import TEST_START_DATE
+from config import TRADE_END_DATE
+from config import TRADE_START_DATE
+from config import TRAIN_END_DATE
+from config import TRAIN_START_DATE
+from config import TRAINED_MODEL_DIR
+from config_tickers import DOW_30_TICKER
+from meta.env_stock_trading.env_stocktrading_np import StockTradingEnv
 
 # construct environment
 

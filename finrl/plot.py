@@ -9,8 +9,8 @@ import pandas as pd
 import pyfolio
 from pyfolio import timeseries
 
-from finrl import config
-from finrl.meta.preprocessor.yahoodownloader import YahooDownloader
+import config
+from meta.preprocessor.yahoodownloader import YahooDownloader
 
 
 def get_daily_return(df, value_col_name="account_value"):

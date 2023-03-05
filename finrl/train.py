@@ -1,14 +1,14 @@
 from __future__ import annotations
 
-from finrl.config import ERL_PARAMS
-from finrl.config import INDICATORS
-from finrl.config import RLlib_PARAMS
-from finrl.config import SAC_PARAMS
-from finrl.config import TRAIN_END_DATE
-from finrl.config import TRAIN_START_DATE
-from finrl.config_tickers import DOW_30_TICKER
-from finrl.meta.data_processor import DataProcessor
-from finrl.meta.env_stock_trading.env_stocktrading_np import StockTradingEnv
+from config import ERL_PARAMS
+from config import INDICATORS
+from config import RLlib_PARAMS
+from config import SAC_PARAMS
+from config import TRAIN_END_DATE
+from config import TRAIN_START_DATE
+from config_tickers import DOW_30_TICKER
+from meta.data_processor import DataProcessor
+from meta.env_stock_trading.env_stocktrading_np import StockTradingEnv
 
 # construct environment
 
